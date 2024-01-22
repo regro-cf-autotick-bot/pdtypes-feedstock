@@ -1,5 +1,5 @@
 {% set name = "pdtypes" %}
-{% set version = "0.0.4" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pdtypes-{{ version }}.tar.gz
-  sha256: 4f76fac05a785d558b809aa59d2ec13ee22e105267f2bde025007242fe8f4983
+  sha256: b24ad785a2d78d8e7e02660abbd4123b23cb79d0b7594840468b77242ce60eb9
 
 build:
   noarch: python
